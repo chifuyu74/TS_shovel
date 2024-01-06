@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@comp/*": ["src/comp/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@live2dSdk/*": ["src/Live2D/Live2DFramework/Framework/src/*"],
+      "@live2d/*": ["src/Live2D/Render/*"],
+      "@live2dResource/*": ["src/Live2D/Resources/*"]
+    }
+  }
+}
